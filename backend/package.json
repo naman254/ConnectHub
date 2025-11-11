@@ -5,6 +5,8 @@
     },
     "type": "module",
     "dependencies": {
+        "@arcjet/inspect": "^1.0.0-beta.14",
+        "@arcjet/node": "^1.0.0-beta.14",
         "bcryptjs": "^2.4.3",
         "cloudinary": "^2.5.1",
         "connecthub": "file:..",
