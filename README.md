@@ -1,5 +1,6 @@
 # 💬 Real-Time Chat Engine | Full-Stack MERN
 [![Live Demo](https://img.shields.io/badge/demo-live-green.svg)](https://connecthub-c1esx.sevalla.app/)
+
 A high-performance, real-time communication platform built with the MERN stack. This project focuses on solving the "Latency Gap" using Optimistic UI updates and persistent WebSocket connections, ensuring a seamless, zero-lag user experience.
 
 
