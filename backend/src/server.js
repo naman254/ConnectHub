@@ -9,14 +9,11 @@ import cookieParser from "cookie-parser";
 import {app, server} from "./lib/socket.js";
 
 
-
-
-
 const __dirname = path.resolve();
 
 const PORT = ENV.PORT;
 
-app.use(express.json({limit: "5mb"}));
+app.use(express.json({}));
 app.use(cors({origin: ENV.CLIENT_URL, credentials:true}));
 app.use(cookieParser());
 
@@ -34,5 +31,4 @@ if(ENV.NODE_ENV === "production"){
 server.listen(PORT, ()=> {
     console.log("Server running on port:" + PORT);
     connectDB();
-
 });

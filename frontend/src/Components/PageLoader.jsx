@@ -9,4 +9,4 @@ function PageLoader() {
   )
 }
 
-export default PageLoader
+export default PageLoader;
